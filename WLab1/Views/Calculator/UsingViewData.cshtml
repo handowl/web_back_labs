@@ -1,0 +1,9 @@
+﻿@{
+    var values = ViewData["Value"] as Values;
+}
+<h2>Numbers: @values.firstValue and @values.secondValue</h2>
+
+<h3>Add: @values.firstValue + @values.secondValue = @values.Add()</h3>
+<h3>Sub: @values.firstValue - @values.secondValue = @values.Sub()</h3>
+<h3>Mul: @values.firstValue * @values.secondValue = @values.Mul()</h3>
+<h3>Div: @values.firstValue / @values.secondValue = @values.Div()</h3>

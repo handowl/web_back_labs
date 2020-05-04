@@ -12,5 +12,14 @@
   <ItemGroup>
     <Content Remove="Views\Home\Contact.cshtml" />
     <Content Remove="Views\Home\Privacy.cshtml" />
+    <Content Remove="Views\Calculator\Model %28копировать%29.cshtml" />
+    <Content Remove="Views\Calculator\Index.cshtml" />
+    <Content Remove="Views\Home\Model.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\EmptyClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Calculator\" />
   </ItemGroup>
 </Project>

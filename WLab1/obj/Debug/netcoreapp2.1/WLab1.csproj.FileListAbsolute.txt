@@ -32,3 +32,7 @@
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/WLab1.pdb
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/WLab1.genruntimeconfig.cache
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/WLab1.csproj.CopyComplete
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/Directly.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/Model.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/UsingViewBag.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Calculator/UsingViewData.cshtml.g.cs
