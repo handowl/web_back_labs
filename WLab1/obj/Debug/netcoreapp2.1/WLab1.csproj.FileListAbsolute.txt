@@ -36,3 +36,5 @@
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Form/ModelBindingPar.cshtml.g.cs
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Form/ManualParsingSep.cshtml.g.cs
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Form/ManualParsingSingle.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Form/Result.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Form/ResultModel.cshtml.g.cs

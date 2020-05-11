@@ -24,7 +24,7 @@ using WLab1.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a651ffe8e0cb30842c9f7ac9f34d4a5a9fb0bca4", @"/Views/Form/ModelBindingPar.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aab2b7a1bfa6362cddcf209cdcd412131d0d3ba2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a0d78b4e3e3f528b134cfa6d95d8f05f0bc2b48b", @"/Views/_ViewImports.cshtml")]
     public class Views_Form_ModelBindingPar : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Calculator>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -55,7 +55,7 @@ using WLab1.Models;
             WriteLiteral("<h1>ModelBinding</h1>\n\n");
             EndContext();
             BeginContext(41, 280, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b4d3e3152314596bb22a4d3453d3bda", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cd7ee18a782549409f8e8aded42a4755", async() => {
                 BeginContext(61, 29, true);
                 WriteLiteral("\n    <div><field name=\"first\"");
                 EndContext();

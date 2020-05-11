@@ -24,7 +24,7 @@ using WLab1.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d0f25c378ea713b25f1983a747de610f2f4548b1", @"/Views/Form/ManualParsingSep.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aab2b7a1bfa6362cddcf209cdcd412131d0d3ba2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a0d78b4e3e3f528b134cfa6d95d8f05f0bc2b48b", @"/Views/_ViewImports.cshtml")]
     public class Views_Form_ManualParsingSep : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -55,7 +55,7 @@ using WLab1.Models;
             WriteLiteral("<h1>Manual Parcing Separate Actions</h1>\n");
             EndContext();
             BeginContext(41, 238, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "295f7e18400346bc99ff0f6465e11977", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41e0ebae635d4b1a9c52611aa570792e", async() => {
                 BeginContext(61, 211, true);
                 WriteLiteral("\n    <div>\n        <div><field name=\"first\" /></div>\n        <div><selector name=\"operation\"></selector></div>\n        <div><field name=\"second\" /></div>\n    </div>\n    <input type=\"submit\" value=\"Calculate\" />\n");
                 EndContext();
