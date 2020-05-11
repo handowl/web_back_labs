@@ -24,10 +24,13 @@ using WLab1.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9ad232a31118fc31909ddc1db1748f9271c87eba", @"/Views/Form/ManualParsingSingle.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a0d78b4e3e3f528b134cfa6d95d8f05f0bc2b48b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7364a337d425e9d9cb0ee3522db6d79b5cd3cb64", @"/Views/_ViewImports.cshtml")]
     public class Views_Form_ManualParsingSingle : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
-        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("name", "first", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("name", "operation", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_2 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("name", "second", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_3 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         #line hidden
         #pragma warning disable 0169
         private string __tagHelperStringValueBuffer;
@@ -48,6 +51,8 @@ using WLab1.Models;
         }
         private global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper;
         private global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper;
+        private global::WLab1.Helpers.FieldTagHelper __WLab1_Helpers_FieldTagHelper;
+        private global::WLab1.Helpers.SelectorTagHelper __WLab1_Helpers_SelectorTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
@@ -55,9 +60,66 @@ using WLab1.Models;
             WriteLiteral("<h1>Manual Parcing Single Action</h1>\n");
             EndContext();
             BeginContext(38, 238, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc196e37ddff4030b417af16050d9d0d", async() => {
-                BeginContext(58, 211, true);
-                WriteLiteral("\n    <div>\n        <div><field name=\"first\" /></div>\n        <div><selector name=\"operation\"></selector></div>\n        <div><field name=\"second\" /></div>\n    </div>\n    <input type=\"submit\" value=\"Calculate\" />\n");
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "74ba22ca5db042acbce4bb3a93d707df", async() => {
+                BeginContext(58, 24, true);
+                WriteLiteral("\n    <div>\n        <div>");
+                EndContext();
+                BeginContext(82, 22, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("field", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d9086634b3274654bd5e1bdbe10efc37", async() => {
+                }
+                );
+                __WLab1_Helpers_FieldTagHelper = CreateTagHelper<global::WLab1.Helpers.FieldTagHelper>();
+                __tagHelperExecutionContext.Add(__WLab1_Helpers_FieldTagHelper);
+                __WLab1_Helpers_FieldTagHelper.Name = (string)__tagHelperAttribute_0.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
+                await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+                if (!__tagHelperExecutionContext.Output.IsContentModified)
+                {
+                    await __tagHelperExecutionContext.SetOutputContentAsync();
+                }
+                Write(__tagHelperExecutionContext.Output);
+                __tagHelperExecutionContext = __tagHelperScopeManager.End();
+                EndContext();
+                BeginContext(104, 20, true);
+                WriteLiteral("</div>\n        <div>");
+                EndContext();
+                BeginContext(124, 38, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("selector", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7f6512b5b7b344528f56c8b1d74b284f", async() => {
+                }
+                );
+                __WLab1_Helpers_SelectorTagHelper = CreateTagHelper<global::WLab1.Helpers.SelectorTagHelper>();
+                __tagHelperExecutionContext.Add(__WLab1_Helpers_SelectorTagHelper);
+                __WLab1_Helpers_SelectorTagHelper.Name = (string)__tagHelperAttribute_1.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_1);
+                await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+                if (!__tagHelperExecutionContext.Output.IsContentModified)
+                {
+                    await __tagHelperExecutionContext.SetOutputContentAsync();
+                }
+                Write(__tagHelperExecutionContext.Output);
+                __tagHelperExecutionContext = __tagHelperScopeManager.End();
+                EndContext();
+                BeginContext(162, 20, true);
+                WriteLiteral("</div>\n        <div>");
+                EndContext();
+                BeginContext(182, 23, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("field", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f6fca93617e34218989c3d6d778f9986", async() => {
+                }
+                );
+                __WLab1_Helpers_FieldTagHelper = CreateTagHelper<global::WLab1.Helpers.FieldTagHelper>();
+                __tagHelperExecutionContext.Add(__WLab1_Helpers_FieldTagHelper);
+                __WLab1_Helpers_FieldTagHelper.Name = (string)__tagHelperAttribute_2.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
+                await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+                if (!__tagHelperExecutionContext.Output.IsContentModified)
+                {
+                    await __tagHelperExecutionContext.SetOutputContentAsync();
+                }
+                Write(__tagHelperExecutionContext.Output);
+                __tagHelperExecutionContext = __tagHelperScopeManager.End();
+                EndContext();
+                BeginContext(205, 64, true);
+                WriteLiteral("</div>\n    </div>\n    <input type=\"submit\" value=\"Calculate\" />\n");
                 EndContext();
             }
             );
@@ -65,8 +127,8 @@ using WLab1.Models;
             __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper);
             __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper>();
             __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper);
-            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_0.Value;
-            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_3.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_3);
             await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
             if (!__tagHelperExecutionContext.Output.IsContentModified)
             {

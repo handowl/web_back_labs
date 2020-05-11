@@ -28,7 +28,7 @@ namespace WLab1.Controllers
             if (!TryValidateModel(model, nameof(model))) return View(model);
 
             model.Result = Calculator.Calculate(first, operation, second);
-            return View(model);
+            return View("ResultModel", model);
         }
 
         public ViewResult ModelBindingSep()
@@ -43,7 +43,7 @@ namespace WLab1.Controllers
             if (!TryValidateModel(model, nameof(model))) return View(model);
 
             model.Result = Calculator.Calculate(model.First, model.Operation, model.Second);
-            return View(model);
+            return View("ResultModel", model);
         }
 
         [HttpGet]
@@ -57,15 +57,16 @@ namespace WLab1.Controllers
         {
             float result = Calculator.Calculate(first, operation, second);
             ViewBag.answer = $"{first} {operation} {second} = {result}";
-            return View();
+            return View("Result");
         }
 
         public IActionResult ManualParsingSingle(int first, string operation, int second)
         {
-            if(Request.Method == "POST")
+            if (Request.Method == "POST")
             {
                 float result = Calculator.Calculate(first, operation, second);
                 ViewBag.answer = $"{first} {operation} {second} = {result}";
+                return View("Result");
             }
             return View();
         }
