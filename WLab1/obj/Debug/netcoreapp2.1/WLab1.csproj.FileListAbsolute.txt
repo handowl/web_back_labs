@@ -32,3 +32,7 @@
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/WLab1.pdb
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/WLab1.genruntimeconfig.cache
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/WLab1.csproj.CopyComplete
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Form/ModelBindingSep.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Form/ModelBindingPar.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Form/ManualParsingSep.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Form/ManualParsingSingle.cshtml.g.cs

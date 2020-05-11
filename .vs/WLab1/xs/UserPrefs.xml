@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{D5E72FA3-F355-461C-97FF-40F8C3CA9AB0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WLab1/Views/Form/ResultModel.cshtml">
+    <Files>
+      <File FileName="WLab1/Program.cs" Line="14" Column="6" />
+      <File FileName="WLab1/Controllers/FormController.cs" Line="23" Column="19" />
+      <File FileName="WLab1/Views/Form/ModelBindingPar.cshtml" Line="1" Column="18" />
+      <File FileName="WLab1/Views/Form/ModelBindingSep.cshtml" Line="3" Column="1" />
+      <File FileName="WLab1/Views/Form/ManualParsingSep.cshtml" Line="1" Column="36" />
+      <File FileName="WLab1/Views/Form/ManualParsingSingle.cshtml" Line="1" Column="5" />
+      <File FileName="WLab1/Views/Form/Result.cshtml" Line="4" Column="7" />
+      <File FileName="WLab1/Views/Form/ResultModel.cshtml" Line="1" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WLab1" expanded="True">
+            <Node name="WLab1" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Form" expanded="True">
+                  <Node name="ResultModel.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WLab1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

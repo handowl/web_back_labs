@@ -1,0 +1,13 @@
+﻿<h1>ModelBind</h1>
+
+
+@model Calculator
+
+<form method="post">
+    <div>
+        <div><field name="first" value="@Model.First"/></div>
+        <div><selector name="operation" default="@Model.Operation"></selector></div>
+        <div><field name="second" value="@Model.Second" /></div>
+    </div>
+    <input type="submit" value="Calculate" />
+</form>
