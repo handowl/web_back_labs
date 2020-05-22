@@ -30,10 +30,10 @@ namespace WLab1.Models
                     CorrectAnswer = (Convert.ToDouble(First) + Convert.ToDouble(Second)).ToString();
                     break;
                 case "-":
-                    CorrectAnswer = (Convert.ToDouble(First) + Convert.ToDouble(Second)).ToString();
+                    CorrectAnswer = (Convert.ToDouble(First) - Convert.ToDouble(Second)).ToString();
                     break;
                 case "*":
-                    CorrectAnswer = (Convert.ToDouble(First) / Convert.ToDouble(Second)).ToString();
+                    CorrectAnswer = (Convert.ToDouble(First) * Convert.ToDouble(Second)).ToString();
                     break;
                 case "/":
                     CorrectAnswer = (Convert.ToDouble(First) / Convert.ToDouble(Second)).ToString();

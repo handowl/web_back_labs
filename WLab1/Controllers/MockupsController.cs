@@ -18,12 +18,7 @@ namespace WLab1.Controllers
         }
 
         [HttpGet]
-        public IActionResult Quiz()
-        {
-            Exercises ex = new Exercises();
-            Console.WriteLine("answer {0}", ex.InputAnswer);
-            return View(ex);
-        }
+        public IActionResult Quiz() => View(new Exercises());
 
         [HttpPost]
         public IActionResult Quiz(Exercises Exercise, string action)
@@ -31,7 +26,6 @@ namespace WLab1.Controllers
             if (double.TryParse(Exercise.InputAnswer, out double InputAnswer) & ModelState.IsValid)
             {
                 Answers answers = Answers.Instance;
-                Console.WriteLine("Exercise answer {0}", Exercise.InputAnswer);
                 answers.Total++;
                 Exercise.Solve();
                 if (Exercise.Check()) answers.Correct++;
@@ -45,7 +39,7 @@ namespace WLab1.Controllers
 
             if (action == "next") return View(new Exercises());
             if (action == "finish") return RedirectToAction("QuizResult");
-            return View(Exercise);
+            return View();
         }
 
         public IActionResult QuizResult()

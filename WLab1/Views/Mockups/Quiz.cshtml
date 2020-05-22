@@ -1,13 +1,13 @@
 ﻿@model Exercises
 
 <h2>@Model.First  @Model.Operation @Model.Second = </h2>
-@ViewBag.Result
+@ViewBag.NaN
 <form method="post">
     <input name="InputAnswer" type="text">
     <br>
-    <input name="First" value="@Model.First" style="display: none">
-    <input name="Operation" value="@Model.Operation" style="display: none">
-    <input name="Second" value="@Model.Second" style="display: none">
+    <input type="hidden" name="First" value="@Model.First">
+    <input  type="hidden" name="Operation" value="@Model.Operation">
+    <input type="hidden" name="Second" value="@Model.Second">
     <input type="submit" value="next" name="action">
     <input type="submit" value="finish" name="action">
 </form>
