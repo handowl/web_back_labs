@@ -51,7 +51,7 @@ namespace WLab1.Models
 
     }
 
-    public sealed class Answers
+    public class Answers
     {
         public List<Exercises> Exercises;
 
