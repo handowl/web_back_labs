@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{D5E72FA3-F355-461C-97FF-40F8C3CA9AB0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WLab1/Views/Mockups/Quiz.cshtml">
+    <Files>
+      <File FileName="WLab1/Models/Operations.cs" Line="73" Column="14" />
+      <File FileName="WLab1/Controllers/MockupsController.cs" Line="42" Column="33" />
+      <File FileName="WLab1/Views/Mockups/Quiz.cshtml" Line="2" Column="1" />
+      <File FileName="WLab1/Views/Mockups/QuizResult.cshtml" Line="1" Column="49" />
+      <File FileName="WLab1/Views/Home/Index.cshtml" Line="3" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WLab1" expanded="True">
+            <Node name="WLab1" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Mockups" expanded="True">
+                  <Node name="Quiz.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WLab1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

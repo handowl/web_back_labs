@@ -13,4 +13,7 @@
     <Content Remove="Views\Home\Contact.cshtml" />
     <Content Remove="Views\Home\Privacy.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Mockups\" />
+  </ItemGroup>
 </Project>

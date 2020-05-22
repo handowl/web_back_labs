@@ -1,0 +1,9 @@
+﻿<h1>Правильно @ViewBag.Correct из @ViewBag.Total</h1>
+<ul>
+@{
+    foreach (var Ex in (ViewBag.Result))
+    {
+        <li>@Ex.First @Ex.Operation @Ex.Second = @Ex.InputAnswer</li>
+    }
+}
+</ul>
