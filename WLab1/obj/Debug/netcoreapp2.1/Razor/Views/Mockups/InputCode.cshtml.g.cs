@@ -58,12 +58,12 @@ using WLab1.Models;
             WriteLiteral("<h1>Enter code</h1>\n");
             EndContext();
             BeginContext(54, 119, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1bccf1861fab42b2a388009bb3aafb1b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "238e5bc0ff1e4b409ca825176ff2557b", async() => {
                 BeginContext(89, 5, true);
                 WriteLiteral("\n    ");
                 EndContext();
                 BeginContext(94, 41, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "cba0bfa92be243289d6d500258617a49", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "583897101f9144c1bd5accb9095169c9", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();

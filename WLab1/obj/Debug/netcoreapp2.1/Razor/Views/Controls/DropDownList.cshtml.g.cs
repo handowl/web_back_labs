@@ -97,12 +97,12 @@ using WLab1.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(135, 820, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b053d5cd685a4227a5db4f8a6fe43416", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d403a3ff33904e90944cbd79981d3d9d", async() => {
                 BeginContext(155, 51, true);
                 WriteLiteral("\n            <select name=\"value\">\n                ");
                 EndContext();
                 BeginContext(206, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2545df9448c745af982a630138b4600b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0280c62b6aac455ebfe48eb36ecf4931", async() => {
                     BeginContext(230, 7, true);
                     WriteLiteral("January");
                     EndContext();
@@ -124,7 +124,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(263, 42, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "56baee9cf1314406b2d0bae5e51960c1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "22d04b8df0754e09b47c50b5206e2c5d", async() => {
                     BeginContext(288, 8, true);
                     WriteLiteral("February");
                     EndContext();
@@ -146,7 +146,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(322, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fa8a618538cb4d60abb4e2c24f0b9f8b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e9b945ce77e47dda2a536385f1f4ea7", async() => {
                     BeginContext(344, 5, true);
                     WriteLiteral("March");
                     EndContext();
@@ -168,7 +168,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(375, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ac5e187794a54a658b4dfde1ef965a3a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b4446e3318944c9887343c9e4ad2788", async() => {
                     BeginContext(397, 5, true);
                     WriteLiteral("April");
                     EndContext();
@@ -190,7 +190,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(428, 32, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b5197c4691cf4a269c2dc7cfe716593e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "755e213ca2e543cc8f4d24276c5b5f0c", async() => {
                     BeginContext(448, 3, true);
                     WriteLiteral("May");
                     EndContext();
@@ -212,7 +212,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(477, 34, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47fb699983db4ba38deb47fd4a170332", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47467ade2ef74c5e84114bcb2e0384e0", async() => {
                     BeginContext(498, 4, true);
                     WriteLiteral("June");
                     EndContext();
@@ -234,7 +234,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(528, 34, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1f5bd6d5cdf648b3ba75e73de4f60d71", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "747652204b064b508f6cf9e48f987244", async() => {
                     BeginContext(549, 4, true);
                     WriteLiteral("July");
                     EndContext();
@@ -256,7 +256,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(579, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f7d0dc0220f74a53b1a9b869e1df9563", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48d02cd9f3994436971a7f53386fe461", async() => {
                     BeginContext(602, 6, true);
                     WriteLiteral("August");
                     EndContext();
@@ -278,7 +278,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(634, 44, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8571f5bafd1429392a706d155d131aa", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c184a839195d4f0a8f62c59b56a7e8b5", async() => {
                     BeginContext(660, 9, true);
                     WriteLiteral("September");
                     EndContext();
@@ -300,7 +300,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(695, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7126f7011ac649a789150a03a5ddb6cd", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5afc2f2cf3b5420984862ec21c13fb64", async() => {
                     BeginContext(719, 7, true);
                     WriteLiteral("October");
                     EndContext();
@@ -322,7 +322,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(752, 42, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d5ada485dec4c068f2bad3c185f2ee0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8391afa632b84530a00d399e05a2f99f", async() => {
                     BeginContext(777, 8, true);
                     WriteLiteral("November");
                     EndContext();
@@ -344,7 +344,7 @@ using WLab1.Models;
                 WriteLiteral("\n                ");
                 EndContext();
                 BeginContext(811, 42, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e94a393b344d41c188270cada98beac0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ffd5740dfe53478c86c763b5c4249aeb", async() => {
                     BeginContext(836, 8, true);
                     WriteLiteral("December");
                     EndContext();

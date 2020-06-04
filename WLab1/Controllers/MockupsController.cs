@@ -52,29 +52,25 @@ namespace WLab1.Controllers
         [HttpPost]
         public IActionResult ResetPassword(EmailInput data, string value)
         {
+            if (value == "input") return View("InputCode");
             if (ModelState.IsValid)
             {
-                Person user = Person.Instance;
-                if (data.Email == user.Email)
+                if (data.Email == Person.Instance.Email)
                 {
-                    user.Code = "322";
+                    Person.Instance.Code = "322";
                     return View("InputCode");
                 }
-                else return View(data);
             }
             return View(data);
 
         }
 
 
-        public IActionResult Check(CodeInput code)
+        public IActionResult Check(CodeInput viewCode)
         {
-                Person user = Person.Instance;
-                if (code.Code == user.Code)
-                {
-
-                    return View("Index");
-                }else return View("InputCode");
+            Console.WriteLine("===================================== Code" + viewCode.Code + " per code" + Person.Instance.Code);
+            if (viewCode.GetCode() == Person.Instance.Code) return View("Index");
+            return View("InputCode");
         }
     }
 }

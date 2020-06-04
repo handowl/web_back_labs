@@ -84,7 +84,7 @@ using WLab1.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(153, 182, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0307983813d74bf6b235e41fa84557f9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f90384a0cd0d4a1d8eee5bdafc53247d", async() => {
                 BeginContext(173, 155, true);
                 WriteLiteral("\n           <input type=\"checkbox\" name=\"value\" value=\"1\"><span> isSelected</span>\n            <br>\n            <input type=\"submit\" value=\"send\">\n        ");
                 EndContext();

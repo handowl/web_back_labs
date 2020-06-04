@@ -84,7 +84,7 @@ using WLab1.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(128, 1111, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "621edfc82a56460982beddf3cb0af7e2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40bb374d6edc4b43a6d72cfcfc9ed031", async() => {
                 BeginContext(148, 1084, true);
                 WriteLiteral(@"
             <input type=""radio"" name=""value"" value=""January""><span>January</span><br>
