@@ -13,4 +13,12 @@
     <Content Remove="Views\Home\Contact.cshtml" />
     <Content Remove="Views\Home\Privacy.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Controls\" />
+    <Folder Include="Views\Mockups\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ViewModels\FirstStepSignUpModel.cs" />
+  </ItemGroup>
 </Project>

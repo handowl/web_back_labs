@@ -1,0 +1,13 @@
+﻿<h1>TextBox</h1>
+@{
+    var text = ViewBag.Text;
+    if (text != null){
+        <p><b>Text</b> @text</p>
+    }
+    else{
+        <form method="post">
+            <input type="text" name="text">
+            <input type="submit" value="send">
+        </form>
+    }
+}

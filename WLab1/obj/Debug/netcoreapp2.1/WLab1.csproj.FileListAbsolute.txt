@@ -32,3 +32,16 @@
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/WLab1.pdb
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/WLab1.genruntimeconfig.cache
 /home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/WLab1.csproj.CopyComplete
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Controls/Index.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Controls/TextBox.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Mockups/Index.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Controls/Textarea.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Controls/CheckBox.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Controls/DropDownList.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Controls/ListBox.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Controls/Radio.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Mockups/ResetPassword.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Mockups/SignUp.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Mockups/SignUpCredentials.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Mockups/SignUpStep2.cshtml.g.cs
+/home/elisey/Projects/WLab1/WLab1/obj/Debug/netcoreapp2.1/Razor/Views/Mockups/InputCode.cshtml.g.cs

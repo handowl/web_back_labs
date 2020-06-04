@@ -1,0 +1,26 @@
+﻿<h1>Radio</h1>
+<h3>Month</h3>
+@{
+    var val = ViewBag.Value;
+    if (val != null){
+        <p>@val</p>
+    }
+    else{
+        <form method="post">
+            <input type="radio" name="value" value="January"><span>January</span><br>
+            <input type="radio" name="value" value="February"><span>February</span><br>
+            <input type="radio" name="value" value="March"><span>March</span><br>
+            <input type="radio" name="value" value="April"><span>April</span><br>
+            <input type="radio" name="value" value="May"><span>May</span><br>
+            <input type="radio" name="value" value="June"><span>June</span><br>
+            <input type="radio" name="value" value="July"><span>July</span><br>
+            <input type="radio" name="value" value="August"><span>August</span><br>
+            <input type="radio" name="value" value="September"><span>Septembe</span><br>
+            <input type="radio" name="value" value="October"><span>October</span><br>
+            <input type="radio" name="value" value="November"><span>November</span><br>
+            <input type="radio" name="value" value="December"><span>December</span><br>
+            <br>
+            <input type="submit" value="send">
+        </form>
+    }
+}

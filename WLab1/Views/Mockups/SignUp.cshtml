@@ -1,0 +1,48 @@
+﻿@model WLab1.ViewModels.FirstStepSignUp
+<h1>Sign Up</h1>
+
+<form method="post">
+    <b>Name</b><br>
+    <input asp-for="@Model.Name"><br>
+     <b>Surame</b><br>
+    <input asp-for="@Model.Surname"><br>
+        <b>Name</b><br>
+    <select asp-for="@Model.Day">
+        @{
+            for (int i = 1; i < 31; i++)
+            {
+                <option value="@i">@i</option>
+            }
+        }
+    </select>
+    <select asp-for="@Model.Month">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+    </select>
+    <select asp-for="@Model.Year">
+        @{
+            for (int i = 1970; i < 2005; i++)
+            {
+                <option value="@i">@i</option>
+            }
+        }
+    </select>
+    
+    <br>
+    <b>Gender</b><br>
+        <input asp-for="@Model.Gender" type="radio" value="Мужской"><span> Мужской</span><br>
+        <input asp-for="@Model.Gender" type="radio" value="Женский"><span> Женский</span><br>
+        <br>
+    
+    <input type="submit">
+</form>

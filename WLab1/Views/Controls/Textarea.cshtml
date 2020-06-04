@@ -1,0 +1,14 @@
+﻿<h1>TextArea</h1>
+@{
+    var text = ViewBag.Text;
+    if (text != null){
+        <p><b>Text</b> @text</p>
+    }
+    else{
+        <form method="post">
+            <textarea name="text"></textarea>
+            <br>
+            <input type="submit" value="send">
+        </form>
+    }
+}

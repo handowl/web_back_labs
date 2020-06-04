@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{302F0B27-4246-435F-B0C9-A8ED56C7C86C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewModels/SignUpModel.cs">
+    <Files>
+      <File FileName="Controllers/MockupsController.cs" Line="21" Column="61" />
+      <File FileName="ViewModels/SignUpModel.cs" Line="33" Column="46" />
+      <File FileName="ViewModels/ResetModel.cs" Line="12" Column="27" />
+      <File FileName="Views/Mockups/InputCode.cshtml" Line="4" Column="50" />
+      <File FileName="Views/Mockups/ResetPassword.cshtml" Line="3" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WLab1" expanded="True">
+            <Node name="WLab1" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="SignUpModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Controls" expanded="True" />
+                <Node name="Mockups" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WLab1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

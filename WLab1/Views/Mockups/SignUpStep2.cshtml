@@ -1,0 +1,12 @@
+﻿@model WLab1.ViewModels.SecondStepSignUp
+<h1>Sign Up</h1>
+
+<form method="post" action="SignUpStep2">
+    <b>Enter email</b><br>
+    <input asp-for="@Model.Email"><br>
+     <b>Enter pass</b><br>
+    <input asp-for="@Model.Password"><br>
+     <b>Confirm pass</b><br>
+    <input asp-for="@Model.ConfirmPassword"><br>
+    <input type="submit">
+</form>

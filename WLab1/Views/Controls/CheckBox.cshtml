@@ -1,0 +1,14 @@
+﻿<h1>CheckBox</h1>
+@{
+    var val = ViewBag.Value;
+    if (val != null){
+        <p><b>isSelected</b> @Convert.ToBoolean(val)</p>
+    }
+    else{
+        <form method="post">
+           <input type="checkbox" name="value" value="1"><span> isSelected</span>
+            <br>
+            <input type="submit" value="send">
+        </form>
+    }
+}
