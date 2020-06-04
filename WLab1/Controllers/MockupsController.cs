@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using WLab1.Models;
 using WLab1.ViewModels;
 
@@ -51,7 +52,6 @@ namespace WLab1.Controllers
         [HttpPost]
         public IActionResult ResetPassword(EmailInput data, string value)
         {
-            if (value == "input") return View("InputCode");
             if (ModelState.IsValid)
             {
                 Person user = Person.Instance;
@@ -66,18 +66,15 @@ namespace WLab1.Controllers
 
         }
 
+
         public IActionResult Check(CodeInput code)
         {
-            if (ModelState.IsValid)
-            {
                 Person user = Person.Instance;
-                if (code.Code.ToString() == user.Code)
+                if (code.Code == user.Code)
                 {
+
                     return View("Index");
                 }else return View("InputCode");
-            }
-
-            return View("InputCode");
         }
     }
 }

@@ -12,7 +12,7 @@ namespace WLab1.ViewModels
     public class CodeInput
     {
         [Required]
-        [Compare(nameof(Models.Person.Code))]
+        //[Compare(nameof(Models.Person.Code))]
         public string Code { get; set; }
     }
 }

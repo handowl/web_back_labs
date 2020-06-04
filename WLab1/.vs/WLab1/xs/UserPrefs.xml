@@ -1,22 +1,23 @@
 ﻿<Properties StartupConfiguration="{302F0B27-4246-435F-B0C9-A8ED56C7C86C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ViewModels/SignUpModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/MockupsController.cs">
     <Files>
-      <File FileName="Controllers/MockupsController.cs" Line="21" Column="61" />
+      <File FileName="Controllers/MockupsController.cs" Line="71" Column="31" />
       <File FileName="ViewModels/SignUpModel.cs" Line="33" Column="46" />
-      <File FileName="ViewModels/ResetModel.cs" Line="12" Column="27" />
+      <File FileName="ViewModels/ResetModel.cs" Line="15" Column="11" />
       <File FileName="Views/Mockups/InputCode.cshtml" Line="4" Column="50" />
-      <File FileName="Views/Mockups/ResetPassword.cshtml" Line="3" Column="42" />
+      <File FileName="Views/Mockups/ResetPassword.cshtml" Line="3" Column="46" />
+      <File FileName="Models/User.cs" Line="16" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WLab1" expanded="True">
             <Node name="WLab1" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="SignUpModel.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="MockupsController.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Controls" expanded="True" />
                 <Node name="Mockups" expanded="True" />
@@ -31,7 +32,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.WLab1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/home/elisey/Projects/WLab1/WLab1/Controllers/MockupsController.cs" relfile="Controllers/MockupsController.cs" line="59" column="1" />
+      <Breakpoint file="/home/elisey/Projects/WLab1/WLab1/Controllers/MockupsController.cs" relfile="Controllers/MockupsController.cs" line="60" column="1" />
+      <Breakpoint file="/home/elisey/Projects/WLab1/WLab1/Controllers/MockupsController.cs" relfile="Controllers/MockupsController.cs" line="71" column="31" />
+      <Breakpoint file="/home/elisey/Projects/WLab1/WLab1/Controllers/MockupsController.cs" relfile="Controllers/MockupsController.cs" line="74" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
