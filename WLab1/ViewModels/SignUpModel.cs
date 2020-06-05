@@ -15,18 +15,18 @@ namespace WLab1.ViewModels
         public string Name { get; set; }
 
         [Required]
-        [StringLength(20, MinimumLength = 2)]
+        [StringLength(20, MinimumLength = 2, ErrorMessage = "Фамилия должна быть строкой от 2 до 20 симолов")]
         public string Surname { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Введите день")]
         public string Day { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Введите месяц")]
         public string Month { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Введите год")]
         public string Year { get; set; }
 
         [Required]
-        [StringLength(20, MinimumLength = 2)]
+        [StringLength(20, MinimumLength = 2, ErrorMessage = "Выберите пол")]
         public string Gender { get; set; }
 
         public string Birthdate() {
@@ -44,7 +44,7 @@ namespace WLab1.ViewModels
 
         [Required]
         [DataType(DataType.Password)]
-        [StringLength(20, MinimumLength = 2)]
+        [StringLength(20, MinimumLength = 2, ErrorMessage = "Пароль должен содержать как минимум 2 символа. Как максимум 20")]
         public string Password { get; set; }
 
         [Required]
