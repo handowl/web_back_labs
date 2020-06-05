@@ -10,10 +10,7 @@ namespace WLab1.Controllers
     public class MockupsController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public IActionResult Index() => View();
 
         [HttpGet]
         public IActionResult SignUp() => View("SignUp");
@@ -30,7 +27,7 @@ namespace WLab1.Controllers
                 user.Gender = userdata.Gender;
                 return View("SignUpStep2");
             }
-            return View(userdata);
+            return BadRequest(ModelState);
         }
 
         [HttpPost]
@@ -43,7 +40,7 @@ namespace WLab1.Controllers
                 user.Password = userdata.Password;
                 return View("SignUpCredentials");
             }
-            return View(userdata);
+            return BadRequest(ModelState);
         }
 
         [HttpGet]
@@ -61,16 +58,15 @@ namespace WLab1.Controllers
                     return View("InputCode");
                 }
             }
-            return View(data);
+            return BadRequest(ModelState);
 
         }
 
 
         public IActionResult Check(CodeInput viewCode)
         {
-            Console.WriteLine("===================================== Code" + viewCode.Code + " per code" + Person.Instance.Code);
             if (viewCode.GetCode() == Person.Instance.Code) return View("Index");
-            return View("InputCode");
+            return BadRequest("Code is not correct");
         }
     }
 }

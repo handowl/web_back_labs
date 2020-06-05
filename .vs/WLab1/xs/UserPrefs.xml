@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{D5E72FA3-F355-461C-97FF-40F8C3CA9AB0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WLab1/Views/Mockups/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WLab1/Views/Mockups/ResetPassword.cshtml">
     <Files>
       <File FileName="WLab1/Models/User.cs" Line="17" Column="1" />
       <File FileName="WLab1/Controllers/MockupsController.cs" Line="71" Column="87" />
@@ -24,7 +24,7 @@
               <Node name="Views" expanded="True">
                 <Node name="Controls" expanded="True" />
                 <Node name="Mockups" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="ResetPassword.cshtml" selected="True" />
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True" />

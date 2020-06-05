@@ -58,12 +58,12 @@ using WLab1.Models;
             WriteLiteral("<h1>Reset Pass</h1>\n");
             EndContext();
             BeginContext(55, 212, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "162834a83f2b4fc5a8949b0bdf7b7b3d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3b1eea0b064b48ddb2999337315d2ff1", async() => {
                 BeginContext(102, 5, true);
                 WriteLiteral("\n    ");
                 EndContext();
                 BeginContext(107, 42, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "32cfdf0766fd4b93b46d4ee9442761fa", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0448d6b42ba7425a9f287b33d29df4c7", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();

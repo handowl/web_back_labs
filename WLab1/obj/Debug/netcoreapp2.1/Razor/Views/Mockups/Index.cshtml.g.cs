@@ -55,7 +55,7 @@ using WLab1.Models;
             WriteLiteral("<h1> Multi-staged forms </h1>\n\n<ul>\n    <li>");
             EndContext();
             BeginContext(44, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8a41efe592114a229e922087e4e96bef", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "649b7f5892af49d2aed682b60fe79b93", async() => {
                 BeginContext(71, 7, true);
                 WriteLiteral("Sign Up");
                 EndContext();
@@ -76,7 +76,7 @@ using WLab1.Models;
             WriteLiteral("</li>\n    <li>");
             EndContext();
             BeginContext(96, 52, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1f2862faf7fc427794c8d3bf4fb8a90c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "850597f6910b4150b89c8f384ce09987", async() => {
                 BeginContext(130, 14, true);
                 WriteLiteral("Reset Password");
                 EndContext();

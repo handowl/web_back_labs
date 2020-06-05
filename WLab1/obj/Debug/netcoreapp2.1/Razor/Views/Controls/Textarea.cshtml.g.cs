@@ -84,7 +84,7 @@ using WLab1.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(130, 146, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a48d624ccd84446f9b572331f02aea5e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d67a5abcb11b4a91bea141f81a3c2aaf", async() => {
                 BeginContext(150, 119, true);
                 WriteLiteral("\n            <textarea name=\"text\"></textarea>\n            <br>\n            <input type=\"submit\" value=\"send\">\n        ");
                 EndContext();

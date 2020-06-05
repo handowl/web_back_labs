@@ -11,7 +11,7 @@ namespace WLab1.ViewModels
     public class FirstStepSignUp
     {
         [Required]
-        [StringLength(20, MinimumLength = 2)]
+        [StringLength(20, MinimumLength = 2, ErrorMessage = "Имя должно быть строкой от 2 до 20 симолов")]
         public string Name { get; set; }
 
         [Required]
@@ -37,7 +37,7 @@ namespace WLab1.ViewModels
     public class SecondStepSignUp
     {
         [Required]
-        [DataType(DataType.EmailAddress)]
+        [DataType(DataType.EmailAddress, ErrorMessage = "It is not email")]
         //[RegularExpression(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$", ErrorMessage = "Looks not like email.")]
         [StringLength(20, MinimumLength = 2)]
         public string Email { get; set; }
@@ -49,7 +49,7 @@ namespace WLab1.ViewModels
 
         [Required]
         [DataType(DataType.Password)]
-        [Compare("Password")]
+        [Compare("Password", ErrorMessage = "You are wrong! That is not correct")]
         [StringLength(20, MinimumLength = 2)]
         public string ConfirmPassword { get; set; }
     }
