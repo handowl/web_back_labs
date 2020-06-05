@@ -13,4 +13,17 @@
     <Content Remove="Views\Home\Contact.cshtml" />
     <Content Remove="Views\Home\Privacy.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Doctors\" />
+    <Folder Include="Data\" />
+    <Folder Include="Forms\" />
+    <Folder Include="Views\HospitalDoctors\" />
+    <Folder Include="Views\HospitalLabs\" />
+    <Folder Include="Views\Hospitals\" />
+    <Folder Include="Views\Labs\" />
+    <Folder Include="Views\Placements\" />
+    <Folder Include="Views\WardStaff\" />
+    <Folder Include="Views\Wards\" />
+    <Folder Include="Magrations\" />
+  </ItemGroup>
 </Project>

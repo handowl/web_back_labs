@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{D5E72FA3-F355-461C-97FF-40F8C3CA9AB0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WLab1/Controllers/HospitalsController.cs">
+    <Files>
+      <File FileName="WLab1/Controllers/HospitalsController.cs" Line="28" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WLab1" expanded="True">
+            <Node name="WLab1" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HospitalsController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Magrations" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Doctors" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WLab1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -21,7 +21,11 @@
         <div class="container">
             <div class="navbar-header">
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">WLab</a>
-                <a asp-area="" asp-controller="Home" asp-action="About"  class="navbar-brand">About</a>
+                <a asp-area="" asp-controller="Hospitals" asp-action="Index" class="navbar-brand">Hospitals</a>
+                <a asp-area="" asp-controller="Doctors" asp-action="Index" class="navbar-brand">Doctors</a>
+                <a asp-area="" asp-controller="Labs" asp-action="Index" class="navbar-brand">Labs</a>
+                <a asp-area="" asp-controller="Patients" asp-action="Index" class="navbar-brand">Patients</a>
+                <a asp-area="" asp-controller="About" asp-action="Index" class="navbar-brand">About</a>
             </div>
         </div>
     </nav>
@@ -32,7 +36,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2020 - WLab</p>
+            <p>&copy; 2020 - Crutch Corporation</p>
         </footer>
     </div>
 
