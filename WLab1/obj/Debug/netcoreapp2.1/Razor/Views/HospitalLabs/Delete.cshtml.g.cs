@@ -111,12 +111,12 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
             WriteLiteral("\n        </dd>\n    </dl>\n    \n    ");
             EndContext();
             BeginContext(616, 297, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d68898ae02848c99156516b13e5c9d2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7b56fe727e5403db19623ef3982762c", async() => {
                 BeginContext(714, 134, true);
                 WriteLiteral("\n        <div class=\"form-actions no-color\">\n            <input type=\"submit\" value=\"Delete\" class=\"btn btn-default\" /> |\n            ");
                 EndContext();
                 BeginContext(848, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ced5be995f6843dc9a0f49f66714d881", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d12d476048334767b01adb200dc48db4", async() => {
                     BeginContext(870, 12, true);
                     WriteLiteral("Back to List");
                     EndContext();

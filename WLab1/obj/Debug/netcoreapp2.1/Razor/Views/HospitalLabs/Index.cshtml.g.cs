@@ -73,7 +73,7 @@ using WLab1.Models;
             WriteLiteral("</h2>\n\n<p>\n    ");
             EndContext();
             BeginContext(134, 81, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "29bff1565ba248d68fc51db8a329d7d2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a18d96b9831749c4a63c104267474e46", async() => {
                 BeginContext(201, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
